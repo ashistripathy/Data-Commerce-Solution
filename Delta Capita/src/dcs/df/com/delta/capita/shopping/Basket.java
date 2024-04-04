@@ -17,8 +17,8 @@ public class Basket {
         this.items = new ArrayList<>();
     }
 
-    public void addItem(Item item) {
-        items.add(item);
+    public void addItems(List<Item> items) {
+        this.items.addAll(items);
     }
 
     public int calculateTotalCost() {
